@@ -1,0 +1,87 @@
+body {
+  font-family: 'Concert One', cursive;
+  background-color: #0D0D0D;
+  color: #F20519;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.language-select {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.language-select select {
+  font-family: 'Concert One', cursive;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #400101;
+  color: #ffffff;
+}
+
+main {
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #F20519;
+}
+
+img {
+  width: 200px;
+  max-width: 80vw;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #F20519;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttons .btn {
+  background-color: #BF0404;
+  color: #000000;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-family: 'Concert One', cursive;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.buttons .btn:hover {
+  background-color: #8C0303;
+}

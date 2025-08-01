@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Concert One', cursive;
+  background-color: #0D0D0D;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.topbar {
+  background-color: #F20519;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.language select {
+  background-color: #400101;
+  color: white;
+  font-size: 14px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Concert One', cursive;
+}
+
+.menu a {
+  color: black;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.menu a:hover {
+  color: white;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  flex: 1;
+}
+
+h1 {
+  color: #F20519;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.tutorial-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+.tutorial-item {
+  display: block;
+  background-color: #1A1A1A;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #F20519;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.tutorial-item:hover {
+  transform: translateY(-3px);
+  background-color: #262626;
+  color: #F20519;
+}
+
+footer {
+  background-color: #F20519;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto;
+}
+
+footer .social-icons {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+footer .social-icons a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .social-icons a:hover {
+  color: white;
+}
+
+/* Estilos adicionais existentes */
+.about {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.about img {
+  width: 280px;
+  border-radius: 10px;
+}
+
+.about p {
+  flex: 1;
+  font-size: 16px;
+  color: #ddd;
+  text-align: justify;
+}
+
+.destaque {
+  color: #F20519;
+}
+
+section h2 {
+  color: #F20519;
+  font-size: 26px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.recordes p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.recordes a {
+  color: #F20519;
+  text-decoration: underline;
+}
