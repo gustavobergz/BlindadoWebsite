@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 10px 20px;
 }
 
@@ -31,18 +32,40 @@ body {
   font-family: 'Concert One', cursive;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+}
+
 .menu a {
   color: black;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
+  transition: color 0.3s;
 }
 
 .menu a:hover {
   color: white;
 }
 
+/* Botão de menu (hambúrguer) */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.menu-toggle.open {
+  transform: rotate(90deg);
+}
+
+/* Conteúdo principal */
 main {
   max-width: 1000px;
   margin: auto;
@@ -121,4 +144,67 @@ footer .social-icons {
 footer .social-icons i {
   margin: 0 10px;
   color: #000000;
+}
+
+/* Alinhar colunas */
+.historia-extra {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.experiencias,
+.recordes {
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #F20519;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .topbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-toggle {
+    display: block;
+    order: 2;
+  }
+
+  .language {
+    order: 1;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+    order: 3;
+
+    /* animação */
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .menu.active {
+    display: flex;
+    max-height: 500px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .menu a {
+    margin: 10px 0;
+    color: white;
+  }
+
+  .historia-extra {
+    grid-template-columns: 1fr;
+  }
 }

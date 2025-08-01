@@ -18,6 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 10px 20px;
 }
 
@@ -38,16 +39,37 @@ body {
   font-family: 'Concert One', cursive;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+}
+
 .menu a {
   color: black;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
+  transition: color 0.3s;
 }
 
 .menu a:hover {
   color: white;
+}
+
+/* Botão de menu hamburguer */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.menu-toggle.open {
+  transform: rotate(90deg);
 }
 
 main {
@@ -113,53 +135,45 @@ footer .social-icons a:hover {
   color: white;
 }
 
-/* Estilos adicionais existentes */
-.about {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  flex-wrap: wrap;
-}
+/* Responsivo */
+@media (max-width: 768px) {
+  .topbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.about img {
-  width: 280px;
-  border-radius: 10px;
-}
+  .menu-toggle {
+    display: block;
+    order: 2;
+  }
 
-.about p {
-  flex: 1;
-  font-size: 16px;
-  color: #ddd;
-  text-align: justify;
-}
+  .language {
+    order: 1;
+  }
 
-.destaque {
-  color: #F20519;
-}
+  .menu {
+    flex-direction: column;
+    width: 100%;
+    order: 3;
 
-section h2 {
-  color: #F20519;
-  font-size: 26px;
-  margin-top: 40px;
-  margin-bottom: 10px;
-}
+    /* animação */
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+  }
 
-ul {
-  list-style: none;
-  padding: 0;
-  font-size: 16px;
-}
+  .menu.active {
+    display: flex;
+    max-height: 500px;
+    opacity: 1;
+    transform: translateY(0);
+  }
 
-ul li {
-  margin-bottom: 8px;
-}
-
-.recordes p {
-  font-size: 16px;
-  margin: 10px 0;
-}
-
-.recordes a {
-  color: #F20519;
-  text-decoration: underline;
+  .menu a {
+    margin: 10px 0;
+    color: white;
+  }
 }
