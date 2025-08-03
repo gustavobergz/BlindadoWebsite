@@ -1,4 +1,8 @@
-body {
+* {
+  box-sizing: border-box;
+}
+
+html, body {
   margin: 0;
   padding: 0;
   font-family: 'Concert One', 'Noto Sans SC', sans-serif;
@@ -7,6 +11,8 @@ body {
   word-break: keep-all;
   overflow-wrap: break-word;
   line-height: 1.6;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 body:lang(zh), 
@@ -34,6 +40,7 @@ body:lang(zh) h2 {
   flex-wrap: wrap;
   padding: 10px 20px;
   overflow: visible;
+  width: 100%;
 }
 
 .language {
@@ -58,6 +65,7 @@ body:lang(zh) h2 {
   display: flex;
   align-items: center;
   overflow: visible;
+  flex-wrap: wrap;
 }
 
 .menu a {
@@ -92,6 +100,7 @@ main {
   max-width: 1000px;
   margin: auto;
   padding: 40px 20px;
+  width: 100%;
 }
 
 h1 {
@@ -107,11 +116,14 @@ h1 {
   align-items: flex-start;
   gap: 20px;
   flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
 }
 
 .about img {
   width: 280px;
   border-radius: 10px;
+  max-width: 100%;
 }
 
 .about p {
@@ -120,6 +132,7 @@ h1 {
   color: #ddd;
   text-align: justify;
   min-width: 300px;
+  max-width: 100%;
   word-break: keep-all;
 }
 
@@ -139,6 +152,7 @@ ul {
   list-style: none;
   padding: 0;
   font-size: 16px;
+  max-width: 100%;
 }
 
 ul li {
@@ -180,6 +194,7 @@ footer .social-icons i {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin-top: 30px;
+  max-width: 100%;
 }
 
 .experiencias,
@@ -188,6 +203,7 @@ footer .social-icons i {
   padding: 15px;
   border-radius: 8px;
   border-left: 4px solid #F20519;
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -208,14 +224,13 @@ footer .social-icons i {
 
   .menu {
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     order: 3;
     max-height: 0;
     overflow: hidden;
     opacity: 0;
     transform: translateY(-10px);
     transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
-    display: flex;
     pointer-events: none;
   }
 
@@ -234,13 +249,12 @@ footer .social-icons i {
   .historia-extra {
     grid-template-columns: 1fr;
   }
-  
-  /* Ajustes específicos para chinês em mobile */
+
   body:lang(zh) .about p {
     font-size: 15px;
     line-height: 1.7;
   }
-  
+
   body:lang(zh) ul li {
     font-size: 15px;
     margin-bottom: 15px;
