@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+  <title data-lang-key="tutoriais-title">Blindado</title>
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/tutoriais.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="page-container">
+    <header>
+      <div class="topbar">
+        <div class="language">
+          <i class="fa-solid fa-globe"></i>
+          <label for="language" data-lang-key="change-language">Change Language</label>
+          <select id="language">
+            <option value="pt">Português</option>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="ru">Русский</option>
+            <option value="de">Deutsch</option>
+            <option value="zh">简体中文</option>
+          </select>
+        </div>
+        <button class="menu-toggle" aria-label="Abrir menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav class="menu">
+          <a href="index.html" data-lang-key="nav-inicio">Início</a>
+          <a href="sobre.html" data-lang-key="nav-sobre">Sobre mim</a>
+          <a href="tutoriais.html" data-lang-key="nav-tutoriais">Tutoriais</a>
+          <a href="https://guns.lol/blindado" target="_blank" data-lang-key="nav-redes">Redes Sociais</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1 data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out" data-lang-key="tutoriais-heading">TUTORIAIS</h1>
+      <div class="tutorial-list">
+        <a data-aos="zoom-in" data-aos-duration="500" href="https://bit.ly/41ktPkj" target="_blank" class="tutorial-item" data-lang-key="tutorial-1">
+          Como baixar e configurar o melhor cronômetro para PC
+        </a>
+        <a data-aos="zoom-in" data-aos-duration="500" href="http://bit.ly/44ZZw4U" target="_blank" class="tutorial-item" data-lang-key="tutorial-2">
+          Como ter chaves e moedas infinitas no Subway Surfers
+        </a>
+        <a data-aos="zoom-in" data-aos-duration="500" href="http://bit.ly/477WeO8" target="_blank" class="tutorial-item" data-lang-key="tutorial-3">
+          Como jogar Subway Surfers no PC e utilizar o WASD
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <p><strong>BLINDADO</strong></p>
+      <p data-lang-key="footer-rights">&copy; 2025 Todos os Direitos Reservados</p>
+      <div class="social-icons">
+        <a href="https://www.youtube.com/@blindxdo"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/gustavobergz/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@blindxdo"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 120, once: true });
+  </script>
+  <script src="js/language-system.js"></script>
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu');
+
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('active');
+      toggle.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+  <title data-lang-key="index-title">Blindado</title>
+
+  <!-- Google Fonts: Concert One -->
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-papb6H+5VxFjlqzxw5rNq0dZDlJ3LtvGcjcqzqoyCHeQ5+NzWz9zyqTS7u/3cwl8EjUUGxN+reVj6DqJ8Y3/uA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link para CSS externo -->
+  <link rel="stylesheet" href="css/inicio.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="language-select">
+      <i class="fa-solid fa-globe"></i>
+      <label for="language" data-lang-key="change-language">Change Language</label>
+      <select id="language" name="language">
+        <option value="pt">Português</option>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="ru">Русский</option>
+        <option value="de">Deutsch</option>
+        <option value="zh">简体中文</option>
+        <!-- Adicione mais opções se quiser -->
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <h1
+    data-aos="zoom-in"
+    data-aos-duration="500"
+     data-aos-easing="ease-in-out"
+     data-lang-key="index-hello">Olá!</h1>
+    <img
+    data-aos="flip-right"
+     data-aos-duration="500"
+     data-aos-easing="ease-in-out"
+     src="./assets/Image result for wechat luoxiaohei.gif" alt="Imagem de dois gatos" draggable="false" />
+    <h2
+    data-aos="zoom-in"
+    data-aos-duration="500"
+     data-aos-easing="ease-in-out"
+     data-lang-key="index-question">O que você está procurando?</h2>
+    <nav
+    data-aos="zoom-in"
+    data-aos-duration="500"
+     data-aos-easing="ease-in-out" class="buttons">
+      <a href="sobre.html" class="btn" data-lang-key="btn-sobre">Sobre mim</a>
+      <a href="tutoriais.html" class="btn" data-lang-key="btn-tutoriais">Tutoriais</a>
+      <a href="https://guns.lol/blindado" target="_blank" class="btn" data-lang-key="btn-redes">Redes Sociais</a>
+    </nav>
+  </main>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/language-system.js"></script>
+</body>
+
+</html>
