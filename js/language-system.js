@@ -78,8 +78,6 @@ class LanguageSystem {
       if (!value) return;
       if (key === 'sobre-historia') {
         el.innerHTML = value;
-      } else if (el.tagName === 'TITLE') {
-        el.textContent = value;
       } else {
         el.textContent = value;
       }
