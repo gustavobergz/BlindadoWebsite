@@ -6,6 +6,7 @@ const LANG_CODES = {
   es: 'es-ES',
   ru: 'ru-RU',
   de: 'de-DE',
+  fr: 'fr-FR',
   zh: 'zh-CN'
 };
 
