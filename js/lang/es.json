@@ -2,6 +2,7 @@
   "nav-inicio": "Inicio",
   "nav-sobre": "Sobre mí",
   "nav-tutoriais": "Tutoriales",
+  "nav-doar": "Donar",
   "nav-redes": "Redes Sociales",
   "change-language": "Cambiar Idioma",
   "index-title": "Página de Inicio",
@@ -9,6 +10,7 @@
   "index-question": "¿Qué estás buscando?",
   "btn-sobre": "Sobre mí",
   "btn-tutoriais": "Tutoriales",
+  "btn-doar": "Donar",
   "btn-redes": "Redes Sociales",
   "tutoriais-heading": "TUTORIALES",
   "tutorial-1": "Cómo descargar y configurar el mejor cronómetro para PC",
@@ -27,5 +29,15 @@
   "sobre-record-1": "2h10min (Web) - Top 3",
   "sobre-record-2": "57min (Emulador) - Top 1",
   "sobre-link-recordes": "Ver todos los récords",
-  "footer-rights": "© 2025 Todos los Derechos Reservados"
+  "footer-rights": "© 2025 Todos los Derechos Reservados",
+  "doar-title": "Apoya las transmisiones",
+  "doar-heading": "APOYA LOS DIRECTOS",
+  "doar-description": "Cada aporte ayuda a que las transmisiones sigan y aparece en pantalla en tiempo real.",
+  "doar-livepix-title": "LivePix (Brasil)",
+  "doar-livepix-text": "Si estás en Brasil, dona al instante con PIX. Haz clic en el botón para abrir LivePix y seguir los pasos durante el directo.",
+  "doar-livepix-cta": "Donar con LivePix",
+  "doar-paypal-title": "PayPal (Internacional)",
+  "doar-paypal-text": "Ideal para quienes están fuera de Brasil. Usa PayPal para enviar tu apoyo en tu moneda de forma segura y rápida.",
+  "doar-paypal-cta": "Donar con PayPal",
+  "doar-alert": "En cuanto la donación se confirma, la alerta aparece en la transmisión. ¡Gracias por el apoyo!"
 }

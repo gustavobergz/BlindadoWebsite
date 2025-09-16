@@ -2,6 +2,7 @@
   "nav-inicio": "Início",
   "nav-sobre": "Sobre mim",
   "nav-tutoriais": "Tutoriais",
+  "nav-doar": "Doar",
   "nav-redes": "Redes Sociais",
   "change-language": "Change Language",
   "index-title": "Página Inicial",
@@ -9,6 +10,7 @@
   "index-question": "O que você está procurando?",
   "btn-sobre": "Sobre mim",
   "btn-tutoriais": "Tutoriais",
+  "btn-doar": "Doar",
   "btn-redes": "Redes Sociais",
   "tutoriais-heading": "TUTORIAIS",
   "tutorial-1": "Como baixar e configurar o melhor cronômetro para PC",
@@ -27,5 +29,15 @@
   "sobre-record-1": "2h10min (Web) - Top 3",
   "sobre-record-2": "57min (Emulador) - Top 1",
   "sobre-link-recordes": "Ver todos os recordes",
-  "footer-rights": "© 2025 Todos os Direitos Reservados"
+  "footer-rights": "© 2025 Todos os Direitos Reservados",
+  "doar-title": "Doe para as lives",
+  "doar-heading": "APOIE AS LIVES",
+  "doar-description": "Cada contribuição mantém as lives no ar e aparece ao vivo na tela para todo mundo ver.",
+  "doar-livepix-title": "LivePix (Brasil)",
+  "doar-livepix-text": "Ideal para quem está no Brasil. Doe via PIX instantâneo pelo LivePix e veja o alerta surgir na live na mesma hora.",
+  "doar-livepix-cta": "Doar com LivePix",
+  "doar-paypal-title": "PayPal (Internacional)",
+  "doar-paypal-text": "Perfeito para quem acompanha de fora do Brasil. Use PayPal para apoiar em qualquer moeda com total segurança.",
+  "doar-paypal-cta": "Doar com PayPal",
+  "doar-alert": "Assim que a doação é confirmada, o alerta aparece automaticamente na tela da live. Obrigado por fortalecer o conteúdo!"
 }

@@ -2,6 +2,7 @@
   "nav-inicio": "首页",
   "nav-sobre": "关于我",
   "nav-tutoriais": "教程",
+  "nav-doar": "打赏",
   "nav-redes": "社交媒体",
   "change-language": "更改语言",
   "index-title": "首页",
@@ -9,6 +10,7 @@
   "index-question": "你在寻找什么？",
   "btn-sobre": "关于我",
   "btn-tutoriais": "教程",
+  "btn-doar": "打赏",
   "btn-redes": "社交媒体",
   "tutoriais-heading": "教程",
   "tutorial-1": "如何下载和配置最好的电脑计时器",
@@ -27,5 +29,15 @@
   "sobre-record-1": "2 小时 10 分 (网页) – 前 3 名",
   "sobre-record-2": "57 分 (模拟器) – 第 1 名",
   "sobre-link-recordes": "查看所有记录",
-  "footer-rights": "© 2025 版权所有"
+  "footer-rights": "© 2025 版权所有",
+  "doar-title": "支持直播",
+  "doar-heading": "支持直播",
+  "doar-description": "每一笔支持都能让直播继续，并会实时显示在屏幕上。",
+  "doar-livepix-title": "LivePix（巴西）",
+  "doar-livepix-text": "如果你在巴西，可以通过 PIX 即时打赏。点击按钮打开 LivePix，并在直播中按照步骤完成。",
+  "doar-livepix-cta": "使用 LivePix 打赏",
+  "doar-paypal-title": "PayPal（国际）",
+  "doar-paypal-text": "适合全球观众。使用 PayPal 可以快速、安全地用自己的货币支持。",
+  "doar-paypal-cta": "使用 PayPal 打赏",
+  "doar-alert": "打赏一经确认，提示会立即在直播中显示。感谢你的支持！"
 }
