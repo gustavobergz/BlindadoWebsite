@@ -2,6 +2,7 @@
   "nav-inicio": "Home",
   "nav-sobre": "About me",
   "nav-tutoriais": "Tutorials",
+  "nav-doar": "Donate",
   "nav-redes": "Social Media",
   "change-language": "Change Language",
   "index-title": "Home Page",
@@ -9,6 +10,7 @@
   "index-question": "What are you looking for?",
   "btn-sobre": "About me",
   "btn-tutoriais": "Tutorials",
+  "btn-doar": "Donate",
   "btn-redes": "Social Media",
   "tutoriais-heading": "TUTORIALS",
   "tutorial-1": "How to download and configure the best stopwatch for PC",
@@ -27,5 +29,15 @@
   "sobre-record-1": "2h10min (Web) - Top 3",
   "sobre-record-2": "57min (Emulator) - Top 1",
   "sobre-link-recordes": "View all records",
-  "footer-rights": "© 2025 All Rights Reserved"
+  "footer-rights": "© 2025 All Rights Reserved",
+  "doar-title": "Support the livestreams",
+  "doar-heading": "SUPPORT THE STREAMS",
+  "doar-description": "Every contribution keeps the lives going and shows up on screen in real time.",
+  "doar-livepix-title": "LivePix (Brazil)",
+  "doar-livepix-text": "If you're in Brazil, use PIX for instant donations. Click the button to open LivePix and follow the steps during the stream.",
+  "doar-livepix-cta": "Donate with LivePix",
+  "doar-paypal-title": "PayPal (International)",
+  "doar-paypal-text": "Perfect for viewers around the world. Use PayPal to send support in your currency safely and quickly.",
+  "doar-paypal-cta": "Donate with PayPal",
+  "doar-alert": "As soon as the donation is confirmed, the alert pops up live on stream. Thank you for the support!"
 }

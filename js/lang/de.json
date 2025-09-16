@@ -2,6 +2,7 @@
   "nav-inicio": "Startseite",
   "nav-sobre": "Über mich",
   "nav-tutoriais": "Tutorials",
+  "nav-doar": "Spenden",
   "nav-redes": "Soziale Medien",
   "change-language": "Sprache ändern",
   "index-title": "Startseite",
@@ -9,6 +10,7 @@
   "index-question": "Wonach suchst du?",
   "btn-sobre": "Über mich",
   "btn-tutoriais": "Tutorials",
+  "btn-doar": "Spenden",
   "btn-redes": "Soziale Medien",
   "tutoriais-heading": "TUTORIALS",
   "tutorial-1": "Wie man den besten Timer für den PC herunterlädt und konfiguriert",
@@ -27,5 +29,15 @@
   "sobre-record-1": "2h10min (Web) – Top 3",
   "sobre-record-2": "57 min (Emulator) – Platz 1",
   "sobre-link-recordes": "Alle Rekorde anzeigen",
-  "footer-rights": "© 2025 Alle Rechte vorbehalten"
+  "footer-rights": "© 2025 Alle Rechte vorbehalten",
+  "doar-title": "Unterstütze die Streams",
+  "doar-heading": "UNTERSTÜTZE DIE STREAMS",
+  "doar-description": "Jeder Beitrag hält die Streams am Laufen und wird in Echtzeit auf dem Bildschirm angezeigt.",
+  "doar-livepix-title": "LivePix (Brasilien)",
+  "doar-livepix-text": "Wenn du in Brasilien bist, spende sofort per PIX. Klicke auf die Schaltfläche, um LivePix zu öffnen und den Anweisungen während des Streams zu folgen.",
+  "doar-livepix-cta": "Mit LivePix spenden",
+  "doar-paypal-title": "PayPal (International)",
+  "doar-paypal-text": "Ideal für Zuschauer auf der ganzen Welt. Nutze PayPal, um sicher und schnell in deiner Währung zu unterstützen.",
+  "doar-paypal-cta": "Mit PayPal spenden",
+  "doar-alert": "Sobald die Spende bestätigt ist, erscheint der Hinweis direkt im Stream. Danke für deine Unterstützung!"
 }
