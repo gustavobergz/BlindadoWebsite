@@ -113,6 +113,38 @@ h1 {
   color: #F20519;
 }
 
+.playlist-item {
+  cursor: default;
+}
+
+.playlist-item:hover {
+  transform: none;
+  background-color: #1A1A1A;
+  color: #fff;
+}
+
+.playlist-item h2 {
+  margin: 0 0 16px;
+  color: #F20519;
+  font-size: 24px;
+}
+
+.playlist-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.playlist-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 footer {
   background-color: #F20519;
   color: black;
